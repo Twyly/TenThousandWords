@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F554DFB41821FA140096A669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F554DFB31821FA140096A669 /* Foundation.framework */; };
+		F554DFB61821FA140096A669 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F554DFB51821FA140096A669 /* CoreGraphics.framework */; };
+		F554DFB81821FA140096A669 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F554DFB71821FA140096A669 /* UIKit.framework */; };
+		F554DFBA1821FA140096A669 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F554DFB91821FA140096A669 /* CoreData.framework */; };
+		F554DFC01821FA140096A669 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F554DFBE1821FA140096A669 /* InfoPlist.strings */; };
+		F554DFC21821FA140096A669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F554DFC11821FA140096A669 /* main.m */; };
+		F554DFC61821FA140096A669 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F554DFC51821FA140096A669 /* TWAppDelegate.m */; };
+		F554DFC91821FA140096A669 /* TenThousandWords.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F554DFC71821FA140096A669 /* TenThousandWords.xcdatamodeld */; };
+		F554DFCB1821FA140096A669 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F554DFCA1821FA140096A669 /* Images.xcassets */; };
+		F554DFD21821FA140096A669 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F554DFD11821FA140096A669 /* XCTest.framework */; };
+		F554DFD31821FA140096A669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F554DFB31821FA140096A669 /* Foundation.framework */; };
+		F554DFD41821FA140096A669 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F554DFB71821FA140096A669 /* UIKit.framework */; };
+		F554DFD51821FA140096A669 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F554DFB91821FA140096A669 /* CoreData.framework */; };
+		F554DFDD1821FA140096A669 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F554DFDB1821FA140096A669 /* InfoPlist.strings */; };
+		F554DFDF1821FA140096A669 /* TenThousandWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F554DFDE1821FA140096A669 /* TenThousandWordsTests.m */; };
+		F554DFE91821FE110096A669 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F554DFE81821FE110096A669 /* Storyboard.storyboard */; };
+		F554DFEC1821FFEB0096A669 /* TWAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F554DFEB1821FFEB0096A669 /* TWAlbumTableViewController.m */; };
+		F554DFF31822D1BA0096A669 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F554DFF21822D1BA0096A669 /* CoreDataHelper.m */; };
+		F554DFF61822D6AD0096A669 /* TWPhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F554DFF51822D6AD0096A669 /* TWPhotosCollectionViewController.m */; };
+		F554DFF91822F9FB0096A669 /* TWPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F554DFF81822F9FB0096A669 /* TWPhotoCollectionViewCell.m */; };
+		F554DFFB1822FC1B0096A669 /* Astronaut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F554DFFA1822FC1B0096A669 /* Astronaut.jpg */; };
+		F554DFFE1828176B0096A669 /* TWPictureDataTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = F554DFFD1828176B0096A669 /* TWPictureDataTransformer.m */; };
+		F554E001182819600096A669 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = F554E000182819600096A669 /* Photo.m */; };
+		F554E004182819600096A669 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = F554E003182819600096A669 /* Album.m */; };
+		F582CCEE1829446100AEC9A6 /* TWPhotoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F582CCED1829446100AEC9A6 /* TWPhotoDetailViewController.m */; };
+		F582CCF118295F5200AEC9A6 /* TWFiltersCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F582CCF018295F5200AEC9A6 /* TWFiltersCollectionViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F554DFD61821FA140096A669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F554DFA81821FA140096A669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F554DFAF1821FA140096A669;
+			remoteInfo = TenThousandWords;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F554DFB01821FA140096A669 /* TenThousandWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenThousandWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F554DFB31821FA140096A669 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F554DFB51821FA140096A669 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F554DFB71821FA140096A669 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F554DFB91821FA140096A669 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F554DFBD1821FA140096A669 /* TenThousandWords-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TenThousandWords-Info.plist"; sourceTree = "<group>"; };
+		F554DFBF1821FA140096A669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F554DFC11821FA140096A669 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F554DFC31821FA140096A669 /* TenThousandWords-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TenThousandWords-Prefix.pch"; sourceTree = "<group>"; };
+		F554DFC41821FA140096A669 /* TWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAppDelegate.h; sourceTree = "<group>"; };
+		F554DFC51821FA140096A669 /* TWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAppDelegate.m; sourceTree = "<group>"; };
+		F554DFC81821FA140096A669 /* TenThousandWords.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TenThousandWords.xcdatamodel; sourceTree = "<group>"; };
+		F554DFCA1821FA140096A669 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F554DFD01821FA140096A669 /* TenThousandWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenThousandWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F554DFD11821FA140096A669 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F554DFDA1821FA140096A669 /* TenThousandWordsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TenThousandWordsTests-Info.plist"; sourceTree = "<group>"; };
+		F554DFDC1821FA140096A669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F554DFDE1821FA140096A669 /* TenThousandWordsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenThousandWordsTests.m; sourceTree = "<group>"; };
+		F554DFE81821FE110096A669 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		F554DFEA1821FFEB0096A669 /* TWAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAlbumTableViewController.h; sourceTree = "<group>"; };
+		F554DFEB1821FFEB0096A669 /* TWAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAlbumTableViewController.m; sourceTree = "<group>"; };
+		F554DFF11822D1BA0096A669 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		F554DFF21822D1BA0096A669 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		F554DFF41822D6AD0096A669 /* TWPhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotosCollectionViewController.h; sourceTree = "<group>"; };
+		F554DFF51822D6AD0096A669 /* TWPhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotosCollectionViewController.m; sourceTree = "<group>"; };
+		F554DFF71822F9FB0096A669 /* TWPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		F554DFF81822F9FB0096A669 /* TWPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		F554DFFA1822FC1B0096A669 /* Astronaut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Astronaut.jpg; sourceTree = "<group>"; };
+		F554DFFC1828176B0096A669 /* TWPictureDataTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPictureDataTransformer.h; sourceTree = "<group>"; };
+		F554DFFD1828176B0096A669 /* TWPictureDataTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPictureDataTransformer.m; sourceTree = "<group>"; };
+		F554DFFF182819600096A669 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		F554E000182819600096A669 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		F554E002182819600096A669 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		F554E003182819600096A669 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		F582CCEC1829446100AEC9A6 /* TWPhotoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWPhotoDetailViewController.h; sourceTree = "<group>"; };
+		F582CCED1829446100AEC9A6 /* TWPhotoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWPhotoDetailViewController.m; sourceTree = "<group>"; };
+		F582CCEF18295F5200AEC9A6 /* TWFiltersCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWFiltersCollectionViewController.h; sourceTree = "<group>"; };
+		F582CCF018295F5200AEC9A6 /* TWFiltersCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWFiltersCollectionViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F554DFAD1821FA140096A669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F554DFB61821FA140096A669 /* CoreGraphics.framework in Frameworks */,
+				F554DFBA1821FA140096A669 /* CoreData.framework in Frameworks */,
+				F554DFB81821FA140096A669 /* UIKit.framework in Frameworks */,
+				F554DFB41821FA140096A669 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F554DFCD1821FA140096A669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F554DFD21821FA140096A669 /* XCTest.framework in Frameworks */,
+				F554DFD51821FA140096A669 /* CoreData.framework in Frameworks */,
+				F554DFD41821FA140096A669 /* UIKit.framework in Frameworks */,
+				F554DFD31821FA140096A669 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F554DFA71821FA140096A669 = {
+			isa = PBXGroup;
+			children = (
+				F554DFBB1821FA140096A669 /* TenThousandWords */,
+				F554DFD81821FA140096A669 /* TenThousandWordsTests */,
+				F554DFB21821FA140096A669 /* Frameworks */,
+				F554DFB11821FA140096A669 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F554DFB11821FA140096A669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F554DFB01821FA140096A669 /* TenThousandWords.app */,
+				F554DFD01821FA140096A669 /* TenThousandWordsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F554DFB21821FA140096A669 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F554DFB31821FA140096A669 /* Foundation.framework */,
+				F554DFB51821FA140096A669 /* CoreGraphics.framework */,
+				F554DFB71821FA140096A669 /* UIKit.framework */,
+				F554DFB91821FA140096A669 /* CoreData.framework */,
+				F554DFD11821FA140096A669 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F554DFBB1821FA140096A669 /* TenThousandWords */ = {
+			isa = PBXGroup;
+			children = (
+				F554DFC41821FA140096A669 /* TWAppDelegate.h */,
+				F554DFC51821FA140096A669 /* TWAppDelegate.m */,
+				F554DFEA1821FFEB0096A669 /* TWAlbumTableViewController.h */,
+				F554DFEB1821FFEB0096A669 /* TWAlbumTableViewController.m */,
+				F554DFF11822D1BA0096A669 /* CoreDataHelper.h */,
+				F554DFF21822D1BA0096A669 /* CoreDataHelper.m */,
+				F554DFF41822D6AD0096A669 /* TWPhotosCollectionViewController.h */,
+				F554DFF51822D6AD0096A669 /* TWPhotosCollectionViewController.m */,
+				F554DFF71822F9FB0096A669 /* TWPhotoCollectionViewCell.h */,
+				F554DFF81822F9FB0096A669 /* TWPhotoCollectionViewCell.m */,
+				F582CCEC1829446100AEC9A6 /* TWPhotoDetailViewController.h */,
+				F582CCED1829446100AEC9A6 /* TWPhotoDetailViewController.m */,
+				F582CCEF18295F5200AEC9A6 /* TWFiltersCollectionViewController.h */,
+				F582CCF018295F5200AEC9A6 /* TWFiltersCollectionViewController.m */,
+				F554DFE81821FE110096A669 /* Storyboard.storyboard */,
+				F554DFCA1821FA140096A669 /* Images.xcassets */,
+				F554DFFA1822FC1B0096A669 /* Astronaut.jpg */,
+				F554DFF01822098E0096A669 /* Core Data */,
+				F554DFBC1821FA140096A669 /* Supporting Files */,
+			);
+			path = TenThousandWords;
+			sourceTree = "<group>";
+		};
+		F554DFBC1821FA140096A669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F554DFBD1821FA140096A669 /* TenThousandWords-Info.plist */,
+				F554DFBE1821FA140096A669 /* InfoPlist.strings */,
+				F554DFC11821FA140096A669 /* main.m */,
+				F554DFC31821FA140096A669 /* TenThousandWords-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F554DFD81821FA140096A669 /* TenThousandWordsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F554DFDE1821FA140096A669 /* TenThousandWordsTests.m */,
+				F554DFD91821FA140096A669 /* Supporting Files */,
+			);
+			path = TenThousandWordsTests;
+			sourceTree = "<group>";
+		};
+		F554DFD91821FA140096A669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F554DFDA1821FA140096A669 /* TenThousandWordsTests-Info.plist */,
+				F554DFDB1821FA140096A669 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F554DFF01822098E0096A669 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				F554DFC71821FA140096A669 /* TenThousandWords.xcdatamodeld */,
+				F554E002182819600096A669 /* Album.h */,
+				F554E003182819600096A669 /* Album.m */,
+				F554DFFF182819600096A669 /* Photo.h */,
+				F554E000182819600096A669 /* Photo.m */,
+				F554DFFC1828176B0096A669 /* TWPictureDataTransformer.h */,
+				F554DFFD1828176B0096A669 /* TWPictureDataTransformer.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F554DFAF1821FA140096A669 /* TenThousandWords */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F554DFE21821FA140096A669 /* Build configuration list for PBXNativeTarget "TenThousandWords" */;
+			buildPhases = (
+				F554DFAC1821FA140096A669 /* Sources */,
+				F554DFAD1821FA140096A669 /* Frameworks */,
+				F554DFAE1821FA140096A669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TenThousandWords;
+			productName = TenThousandWords;
+			productReference = F554DFB01821FA140096A669 /* TenThousandWords.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F554DFCF1821FA140096A669 /* TenThousandWordsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F554DFE51821FA140096A669 /* Build configuration list for PBXNativeTarget "TenThousandWordsTests" */;
+			buildPhases = (
+				F554DFCC1821FA140096A669 /* Sources */,
+				F554DFCD1821FA140096A669 /* Frameworks */,
+				F554DFCE1821FA140096A669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F554DFD71821FA140096A669 /* PBXTargetDependency */,
+			);
+			name = TenThousandWordsTests;
+			productName = TenThousandWordsTests;
+			productReference = F554DFD01821FA140096A669 /* TenThousandWordsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F554DFA81821FA140096A669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TW;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Teddy Wyly";
+				TargetAttributes = {
+					F554DFCF1821FA140096A669 = {
+						TestTargetID = F554DFAF1821FA140096A669;
+					};
+				};
+			};
+			buildConfigurationList = F554DFAB1821FA140096A669 /* Build configuration list for PBXProject "TenThousandWords" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F554DFA71821FA140096A669;
+			productRefGroup = F554DFB11821FA140096A669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F554DFAF1821FA140096A669 /* TenThousandWords */,
+				F554DFCF1821FA140096A669 /* TenThousandWordsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F554DFAE1821FA140096A669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F554DFC01821FA140096A669 /* InfoPlist.strings in Resources */,
+				F554DFCB1821FA140096A669 /* Images.xcassets in Resources */,
+				F554DFFB1822FC1B0096A669 /* Astronaut.jpg in Resources */,
+				F554DFE91821FE110096A669 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F554DFCE1821FA140096A669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F554DFDD1821FA140096A669 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F554DFAC1821FA140096A669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F554DFF31822D1BA0096A669 /* CoreDataHelper.m in Sources */,
+				F582CCF118295F5200AEC9A6 /* TWFiltersCollectionViewController.m in Sources */,
+				F554DFF61822D6AD0096A669 /* TWPhotosCollectionViewController.m in Sources */,
+				F554DFF91822F9FB0096A669 /* TWPhotoCollectionViewCell.m in Sources */,
+				F554E004182819600096A669 /* Album.m in Sources */,
+				F554DFFE1828176B0096A669 /* TWPictureDataTransformer.m in Sources */,
+				F554DFC21821FA140096A669 /* main.m in Sources */,
+				F554DFC91821FA140096A669 /* TenThousandWords.xcdatamodeld in Sources */,
+				F554DFEC1821FFEB0096A669 /* TWAlbumTableViewController.m in Sources */,
+				F582CCEE1829446100AEC9A6 /* TWPhotoDetailViewController.m in Sources */,
+				F554E001182819600096A669 /* Photo.m in Sources */,
+				F554DFC61821FA140096A669 /* TWAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F554DFCC1821FA140096A669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F554DFDF1821FA140096A669 /* TenThousandWordsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F554DFD71821FA140096A669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F554DFAF1821FA140096A669 /* TenThousandWords */;
+			targetProxy = F554DFD61821FA140096A669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F554DFBE1821FA140096A669 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F554DFBF1821FA140096A669 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F554DFDB1821FA140096A669 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F554DFDC1821FA140096A669 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F554DFE01821FA140096A669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F554DFE11821FA140096A669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F554DFE31821FA140096A669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TenThousandWords/TenThousandWords-Prefix.pch";
+				INFOPLIST_FILE = "TenThousandWords/TenThousandWords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F554DFE41821FA140096A669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TenThousandWords/TenThousandWords-Prefix.pch";
+				INFOPLIST_FILE = "TenThousandWords/TenThousandWords-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F554DFE61821FA140096A669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TenThousandWords.app/TenThousandWords";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TenThousandWords/TenThousandWords-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TenThousandWordsTests/TenThousandWordsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F554DFE71821FA140096A669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TenThousandWords.app/TenThousandWords";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TenThousandWords/TenThousandWords-Prefix.pch";
+				INFOPLIST_FILE = "TenThousandWordsTests/TenThousandWordsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F554DFAB1821FA140096A669 /* Build configuration list for PBXProject "TenThousandWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F554DFE01821FA140096A669 /* Debug */,
+				F554DFE11821FA140096A669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F554DFE21821FA140096A669 /* Build configuration list for PBXNativeTarget "TenThousandWords" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F554DFE31821FA140096A669 /* Debug */,
+				F554DFE41821FA140096A669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F554DFE51821FA140096A669 /* Build configuration list for PBXNativeTarget "TenThousandWordsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F554DFE61821FA140096A669 /* Debug */,
+				F554DFE71821FA140096A669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F554DFC71821FA140096A669 /* TenThousandWords.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F554DFC81821FA140096A669 /* TenThousandWords.xcdatamodel */,
+			);
+			currentVersion = F554DFC81821FA140096A669 /* TenThousandWords.xcdatamodel */;
+			path = TenThousandWords.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F554DFA81821FA140096A669 /* Project object */;
+}
